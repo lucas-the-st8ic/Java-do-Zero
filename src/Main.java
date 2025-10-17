@@ -42,9 +42,34 @@ void main() {
     int numMinimoInt = -2147483648;
     int numMaximoInt = 2147483647;
 
-    long numMinimoLong = (long) -9.223372036854775808;
+    long numMinimoLong = (long)-9.223372036854775808;
     long numMaximoLong = (long) 9.223372036854775807;
 
+    /* TIPOS PRIMITIVOS NO JAVA
+    -Numeros decimais Ex: 1.2, 2.7, 8.6544
+     -Existem tipos diferentes para
+    declaração de números decimais
+    veja a seguir quais são:
+    -float( 32 bits Precisão simples
+    -poucos números após a vírgula)
+    -double( 64 bits Precisão dupla
+    -diversos números após a vírgula)*/
 
+    String nome = "Lucas";
+    char meuCaracter = 'L';
+
+    boolean teste = true;
+    int numTeste = 250;
+     if (teste) {
+         System.out.println("Verdadeiro");
+     } else {
+         System.out.println("Falso");
+     }
+
+     if (numTeste > 250) {
+         System.out.println("Verdadeiro");
+     } else {
+         System.out.println("Falso");
+     }
 }
 
